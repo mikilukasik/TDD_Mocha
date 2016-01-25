@@ -18,5 +18,11 @@ describe('test frame.js /',function(){
         
         })
         
+        it('adder function works with negatives',function(){
+          
+          assert(frame.adder(-1,2)===1)
+        
+        })
+        
         
 })
