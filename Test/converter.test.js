@@ -13,17 +13,13 @@ var compressTester=function(input,expected){
     
     it('compress function gets '+JSON.stringify(input)+' returns '+JSON.stringify(expected),function(){
           
-        var input
-        
+      
         assert.deepStrictEqual(converter.compress(input),expected)
     
     })
 
     
 }
-
-
-
 
 describe('test converter.js /',function(){
    
@@ -33,7 +29,7 @@ describe('test converter.js /',function(){
         
         })
         
-        compressTester([],[])
+        compressTester([],[[]])
         
         compressTester([{a:1, b:2}],[['a','b'],[1,2]])
           
