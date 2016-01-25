@@ -1,10 +1,10 @@
 
 var assert = require('assert');
 
-var frame = require('../app/frame.js');
+var frame = require('../app/converter.js');
 
 
-describe('test frame.js /',function(){
+describe('test converter.js /',function(){
    
         it('has adder function',function(){
           
