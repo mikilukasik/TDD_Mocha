@@ -37,6 +37,6 @@ describe('test converter.js /',function(){
         
         compressTester([{a:1, b:2}],[['a','b'],[1,2]])
           
-             
+        compressTester([{a:1, b:2}, {a:1, c:3}, {a:1, b:4, d:5}],[ ['a','b','c','d'], [1,2],[1, null, 3], [1, 4, null, 5]])     
         
 })
