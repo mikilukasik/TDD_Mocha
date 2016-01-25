@@ -10,5 +10,13 @@ describe('test frame.js /',function(){
           
           assert(frame.adder)
         
-           })
+        })
+        
+        it('adder function returns a+b',function(){
+          
+          assert(frame.adder(1,2)===3)
+        
+        })
+        
+        
 })
